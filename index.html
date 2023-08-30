@@ -4,25 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css"
-  </head>
-  <head>
-    <style></style>
+    <link rel="stylesheet" href="css/style.css"
   </head>
   <body>
-    <div class="container">
-      <div id="home class=" flex-colum flex center">
+    <div id="header">
+      <a href="#">View high scores</a>
+      <p>Time: 0</p>
+    </div>
+
+    <div id="quiz-challenge">
       <h1>Coding Quiz Challenge</h1>
       <p>
         Try to answer the following code-related questions within the time
         limit.<br />
         Keep in mind that incorrect answers will penalize your score/time by ten
         seconds!
-        <!-- <a href="quiz.html" class=""btn">startquiz</a> -->
       </p>
+      <button id="start-btn">Start Quiz</button>
     </div>
-  </body>
 
-  <button>Start Quiz</button>
+    <div id="data-types" class="hide">
+      <h2>Question text here!</h2>
+      <div id="answers">
+        <button>Option 1</button>
+        <button>Option 2</button>
+        <button>Option 3</button>
+        <button>Option 4</button>
+      </div>
+    </div>
+
+
+
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
-<script src="develop/script.js" type="module"></script>
+
+<!-- 
+<div class="container">
+  <div id="home class=" flex-colum flex center">
+  <h1>Coding Quiz Challenge</h1>
+  <p>
+    Try to answer the following code-related questions within the time
+    limit.<br />
+    Keep in mind that incorrect answers will penalize your score/time by ten
+    seconds!
+  </p>
+</div> -->
